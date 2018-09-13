@@ -38,7 +38,7 @@ def on_chat_message(msg):
         else:
             print('Lunghezza audio: %d'%lon,'secondo')
 
-TOKEN = '573952513:AAHp0U1TP_zBo4b-I2EVk_Sgk4EUPp8cNaA'
+TOKEN = ''
 
 bot = telepot.Bot(TOKEN)
 bot.message_loop(on_chat_message)
